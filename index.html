@@ -47,21 +47,18 @@
 
 [https://github.com/markrun/markrun](https://github.com/markrun/markrun)
 
-**html:**
 ````html
 time: <div class="demo" id="demo" ></div>
 ````
 
-**css:**
+````js
+document.getElementById('demo').innerHTML = new Date().getTime()
+````
+        
 ````css
 .demo {
     color:blue;
 }
-````
-
-**js:**
-````js
-document.getElementById('demo').innerHTML = new Date().getTime()
 ````
 <!--MARKRUN-HTML
 <em>markrun/markrun</em>
